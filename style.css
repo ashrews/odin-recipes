@@ -1,0 +1,22 @@
+/* styling */
+
+*{
+    background-color: darkcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+}
+
+.recipe-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.recipe-container div {
+    border: 4px solid black;
+    margin: 8px;
+    padding: 8px;
+    flex: auto;
+  }
